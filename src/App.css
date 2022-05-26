@@ -1,1 +1,33 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background: url("../src/components/images/shamo.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
 
+h1 {
+    font-size: 72px;
+    margin: 0 0 30px 0;
+    color: #424242;
+}
+
+p {
+    color: #616161;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.content {
+    height: 100vh;
+    width: 100%;
+}
+
+
+.share-container {
+    background-color: transparent;
+}
+
+.test-container {
+    /* background-color: yellow; */
+}

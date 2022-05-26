@@ -1,0 +1,54 @@
+.next-page {
+    height: 200px;
+    width: 4px;
+    background-color: transparent;
+    position: relative;
+    top: -100px;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 99;
+}
+
+.next-page::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 0px;
+    width: 100%;
+    background-color: #ffc445;
+    animation: NextPageAnimateDown 2s linear infinite;
+}
+
+.next-page::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 0px;
+    width: 100%;
+    background-color: #ffc445;
+    animation: NextPageAnimateUp 2s linear infinite;
+}
+
+@keyframes NextPageAnimateUp {
+    from {
+        top: 0;
+        height: 0;
+    }
+
+    to {
+        top: 0;
+        height: calc(100% - 15px);
+    }
+}
+
+@keyframes NextPageAnimateDown {
+    from {
+        bottom: 0;
+        height: calc(100% - 15px);
+    }
+
+    to {
+        bottom: 0;
+        height: 0;
+    }
+}

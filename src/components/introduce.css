@@ -1,0 +1,194 @@
+.introduction-container {
+    /* background: url("./images/shamo.jpg") center center no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+.introduction-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
+    grid-gap: 100px;
+    /*子元素垂直居中*/
+    align-items: center;
+}
+
+.introduction-sky div {
+    display: inline-block;
+    position: relative;
+}
+
+.introduction-sky .cloud-1 {
+    background: url("./images/cloud.png") center center no-repeat;
+    background-size: cover;
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    left: 20vw;
+    top: 4vh;
+    animation: CloudAnimate 4s linear infinite alternate;
+    /* top: 4vh;
+    animation: CloudMove 24s linear infinite; */
+}
+
+.introduction-sky .cloud-2 {
+    background: url("./images/cloud.png") center center no-repeat;
+    background-size: cover;
+    width: 72px;
+    height: 72px;
+    position: absolute;
+    /* left: -72px;
+    top: 6vh;
+    animation: CloudMove 24s linear infinite;
+    animation-delay: 12s; */
+    left: 50vw;
+    top: 6vh;
+    animation: CloudAnimate 2s linear infinite alternate;
+}
+
+.introduction-sky .sun {
+    background: url("./images/sun.png") center center no-repeat;
+    background-size: cover;
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    top: 2vh;
+    right: 2vw;
+    animation: SunRotate 12s linear infinite;
+}
+
+@keyframes CloudAnimate {
+    from {
+        transform: rotate(-15deg);
+    }
+
+    to {
+        transform: rotate(15deg);
+    }
+}
+
+@keyframes SunRotate {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes CloudMove {
+    from {
+        left: calc(100vw - 200px);
+    }
+
+    to {
+        left: 0vw;
+    }
+}
+
+.aiyo-avatar {
+    /*在父容器中水平居右*/
+    justify-self: right;
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background: url("./images/ocean.jpg") center center no-repeat;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    animation: Ocean 3s linear infinite alternate;
+}
+
+@keyframes Ocean {
+    from {
+        background-size: 120%;
+    }
+
+    to {
+        background-size: 100%;
+    }
+}
+
+.aiyo-avatar span {
+    display: inline-block;
+    background: url("./images/aiyo.png") center center no-repeat;
+    background-size: cover;
+    width: 128px;
+    height: 128px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: rotate(30deg);
+    animation: CharacterAppear 1s linear;
+}
+
+.aiyo-avatar p {
+    opacity: 0;
+}
+
+.aiyo-avatar:hover p {
+    text-align: center;
+    font-size: 24px;
+    color: aliceblue;
+    font-weight: 700;
+    padding: 100px 0;
+    animation: TextAppear 1s linear forwards;
+    animation-delay: 1s;
+}
+
+.aiyo-avatar:hover span {
+    left: calc((100% - 128px) / 2);
+    transform: rotate(0deg);
+    animation: CharacterAppear1 1s linear forwards;
+}
+
+@keyframes CharacterAppear {
+    from {
+        left: -64px;
+        bottom: -64px;
+        transform: rotate(30deg);
+    }
+
+    to {
+        left: 0;
+        bottom: 0;
+        transform: rotate(30deg);
+
+    }
+}
+
+@keyframes CharacterAppear1 {
+    from {
+        left: 0px;
+        transform: translate(0, 0);
+        transform: rotate(30deg);
+    }
+
+    to {
+        left: calc((100% - 128px) / 2);
+        transform: rotate(0deg);
+    }
+}
+
+@keyframes TextAppear {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.aiyo-introduction h1{
+    font-size: 72px;
+    margin: 0 0 30px 0;
+    color: #424242;
+}
+
+.aiyo-introduction p{
+    color: #616161;
+    font-size: 16px;
+    font-weight: 600;
+}

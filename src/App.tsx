@@ -1,8 +1,17 @@
 import React from 'react';
 import './App.css';
 
+import { Introduce } from "./components/introduce"
+import { Works } from "./components/works"
+import { Share } from "./components/share"
+
 function App() {
-  return (<h1>hello world</h1>
+  return (
+    <>
+      <Introduce />
+      <Works />
+      <Share />
+    </>
   );
 }
 

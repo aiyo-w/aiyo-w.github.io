@@ -1,0 +1,12 @@
+.aiyo-button-yellow {
+    padding: 10px 25px;
+    color: #424242;
+    background-color: transparent;
+    border: 2px solid #424242;
+    font-weight: 600;
+}
+
+.aiyo-button-yellow:hover {
+    color: #ffc445;
+    border: 2px solid #ffc445;
+}
