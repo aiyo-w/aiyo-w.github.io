@@ -3,14 +3,14 @@ import './App.css';
 
 import { Introduce } from "./components/introduce"
 import { Works } from "./components/works"
-import { Share } from "./components/share"
+import { AiyoUI } from "./components/aiyo-ui"
 
 function App() {
   return (
     <>
       <Introduce />
       <Works />
-      <Share />
+      <AiyoUI />
     </>
   );
 }
