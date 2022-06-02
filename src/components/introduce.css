@@ -53,7 +53,7 @@
     height: 128px;
     position: absolute;
     top: 2vh;
-    right: 2vw;
+    right: 3vw;
     animation: SunRotate 12s linear infinite;
 }
 
@@ -181,14 +181,98 @@
     }
 }
 
-.aiyo-introduction h1{
+.aiyo-introduction h1 {
     font-size: 72px;
     margin: 0 0 30px 0;
     color: #424242;
 }
 
-.aiyo-introduction p{
+.aiyo-introduction p {
     color: #616161;
     font-size: 16px;
     font-weight: 600;
 }
+
+.content .introduce {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content .introduce .title {
+    display: block;
+    font-size: 72px;
+    font-weight: bold;
+    color: #424242;
+    margin: 0;
+}
+
+.content .introduce span {
+    margin-top: 40px;
+    color: #616161;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.content .introduce a {
+    display: inline-block;
+    text-decoration: none;
+    color: #424242;
+    padding: 10px 20px;
+    border: 3px solid #616161;
+    transition: all 0.2s;
+}
+
+.content .introduce a:hover {
+    border: 3px solid #ffc445;
+    background-color: #ffc445;
+    color: white;
+}
+
+.content .introduce a:active {
+    border: 3px solid #f7b831;
+    background-color: #f7b831;
+}
+
+/* .content.introduction-container .aiyo-introduction {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content.introduction-container .aiyo-introduction .title,
+.content.works-container .title {
+    display: block;
+    font-size: 72px;
+    font-weight: bold;
+    color: #424242;
+    margin: 0;
+}
+
+.content.introduction-container .aiyo-introduction span,
+.content.works-container span {
+    margin-top: 40px;
+    color: #616161;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.content.introduction-container .aiyo-introduction a {
+    display: inline-block;
+    text-decoration: none;
+    color: #424242;
+    padding: 10px 20px;
+    border: 3px solid #616161;
+    transition: all 0.2s;
+}
+
+.content.introduction-container .aiyo-introduction a:hover {
+    border: 3px solid #ffc445;
+    background-color: #ffc445;
+    color: white;
+}
+
+.content.introduction-container .aiyo-introduction a:active {
+    border: 3px solid #f7b831;
+    background-color: #f7b831;
+} */

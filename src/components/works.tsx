@@ -7,14 +7,16 @@ import { Button } from './button'
 export class Works extends React.Component {
     render() {
         return (
-            <div className="content works-container">
+            <div id="Game2048" className="content works-container">
                 <div className="container">
-                    <div className="game2048-show"></div>
-                    <div className="game2048-introduce">
-                        <h1>GAME 2048</h1>
-                        <p>这里介绍一些玩法，这里介绍一些玩法，这里介绍一些玩法</p>
-                        <Button>PLAY</Button>
+                    <div className="introduce game2048-introduce">
+                        <span className="title">GAME 2048</span>
+                        <span>这里介绍一些玩法，这里介绍一些玩法，这里介绍一些玩法</span>
+                        <span>
+                            <a href="../../helloworld/index.html">Goto Play</a>
+                        </span>
                     </div>
+                    <div className="game2048-show"></div>
                 </div>
                 <NextPage />
             </div>

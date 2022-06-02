@@ -22,10 +22,13 @@ export class Introduce extends React.Component {
                         <p>hello</p>
                         <span></span>
                     </div>
-                    <div className="aiyo-introduction">
-                        <h1>你好啊！兄弟们</h1>
-                        <p>这里就放一些自己的介绍啥的吧，我也不知道说啥!</p>
-                        <Button onClick={this.gotoWorks}>查看作品</Button>
+                    <div className="introduce aiyo-introduction">
+                        <span className='title'>你好啊！兄弟们</span>
+                        <span>这里就放一些自己的介绍啥的吧，我也不知道说啥!</span>
+                        <span>
+                            <a href="#Game2048">查看作品</a>
+                        </span>
+                        {/* <Button onClick={this.gotoWorks}>查看作品</Button> */}
                     </div>
                 </div>
                 <NextPage />
