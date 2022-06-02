@@ -15,7 +15,11 @@
 
 .works-container .game2048-show {
     min-height: 600px;
-    background-color: #a1887f77;
+    background-color: #a1887f41;
+    background-image: url(./images/game.png);
+    background-position-x: 20px;
+    background-position-y: center;
+    background-repeat: no-repeat;
 }
 
 .works-container .game2048-introduce {

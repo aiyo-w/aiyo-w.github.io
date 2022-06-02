@@ -14,7 +14,10 @@
 }
 
 .content.aiyo-ui-container .container .aiyo-ui-show {
-    background-color: rgba(235, 245, 251, 0.8);
+    background-color: rgba(255, 255, 255, 0.8);
+    background-image: url(./images/components.png);
+    background-position: right;
+    background-repeat: no-repeat;
 }
 
 /* .content.aiyo-ui-container .container .aiyo-ui-introduce {

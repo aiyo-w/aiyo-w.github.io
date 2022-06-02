@@ -13,7 +13,7 @@ export class Works extends React.Component {
                         <span className="title">GAME 2048</span>
                         <span>这里介绍一些玩法，这里介绍一些玩法，这里介绍一些玩法</span>
                         <span>
-                            <a href="../../helloworld/index.html">Goto Play</a>
+                            <a href="../../build-game/index.html">Goto Play</a>
                         </span>
                     </div>
                     <div className="game2048-show"></div>

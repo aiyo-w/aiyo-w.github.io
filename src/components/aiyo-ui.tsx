@@ -12,7 +12,7 @@ export class AiyoUI extends React.Component {
                         <span className="title">Use react and typescript.</span>
                         <span>这里介绍一些玩法，这里介绍一些玩法，这里介绍一些玩法</span>
                         <span>
-                            <a href="../../helloworld/index.html">Goto See</a>
+                            <a href="../../build-ui/index.html">Goto See</a>
                         </span>
                     </div>
                 </div>
