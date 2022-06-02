@@ -1,0 +1,64 @@
+.content.aiyo-ui-container {
+    background: rgba(255, 255, 255, 0.6);
+}
+
+.content.aiyo-ui-container .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 100px;
+    min-height: 600px;
+    position: relative;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+.content.aiyo-ui-container .container .aiyo-ui-show {
+    background-color: rgba(235, 245, 251, 0.8);
+}
+
+/* .content.aiyo-ui-container .container .aiyo-ui-introduce {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.content.aiyo-ui-container .container .aiyo-ui-introduce .title,
+.content.works-container .title {
+    display: block;
+    font-size: 72px;
+    font-weight: bold;
+    color: #424242;
+    margin: 0;
+}
+
+.content.aiyo-ui-container .container .aiyo-ui-introduce span,
+.content.works-container span {
+    margin-top: 40px;
+    color: #616161;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.content.aiyo-ui-container .container .aiyo-ui-introduce a,
+.content.works-container a {
+    display: inline-block;
+    text-decoration: none;
+    color: #424242;
+    padding: 10px 20px;
+    border: 3px solid #616161;
+    transition: all 0.2s;
+}
+
+.content.aiyo-ui-container .container .aiyo-ui-introduce a:hover,
+.content.works-container a:hover {
+    border: 3px solid #ffc445;
+    background-color: #ffc445;
+    color: white;
+}
+
+.content.aiyo-ui-container .container .aiyo-ui-introduce a:active,
+.content.works-container a:active {
+    border: 3px solid #f7b831;
+    background-color: #f7b831;
+} */
