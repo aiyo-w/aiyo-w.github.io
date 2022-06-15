@@ -1,0 +1,81 @@
+.content.static-web-container {
+    background-color: white;
+    min-height: 1100px;
+}
+
+.content.static-web-container .container {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.content.static-web-container .static-web-show {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content.static-web-container .static-web-show.sketch .img {
+    min-height: 500px;
+    background: url(./images/sketch.png) center center no-repeat;
+    background-size: cover;
+}
+
+.content.static-web-container .static-web-show.wow .img {
+    min-height: 500px;
+    background: url(./images/wow.png) center center no-repeat;
+    background-size: cover;
+}
+
+.static-web-show .text {
+    text-align: center;
+    justify-self: center;
+    align-self: center;
+}
+
+.static-web-show .text span {
+    margin-top: 40px;
+    color: #616161;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.static-web-show .text .title {
+    display: block;
+    font-size: 72px;
+    font-weight: bold;
+    color: #424242;
+    margin: 0;
+}
+
+.static-web-show .img:hover div {
+    display: block;
+}
+
+.static-web-show .img div {
+    display: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(2px);
+}
+
+.static-web-show .img a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    color: #ffc445;
+    background-color: white;
+    padding: 10px 20px;
+    border: 3px solid white;
+    transition: all 0.2s;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.static-web-show .img a:hover {
+    border: 3px solid #ffc445;
+    color: white;
+    background: transparent;
+}
