@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.10b57bfa.css",
-    "main.js": "/static/js/main.f3ea8e7f.js",
+    "main.css": "/static/css/main.b957f819.css",
+    "main.js": "/static/js/main.970bdd5d.js",
     "static/js/787.c1049e12.chunk.js": "/static/js/787.c1049e12.chunk.js",
+    "static/media/wow.png": "/static/media/wow.95d5cb0ab6dc8fbbe033.png",
+    "static/media/sketch.png": "/static/media/sketch.56b49331196f10708230.png",
     "static/media/ocean.jpg": "/static/media/ocean.424adcf213d90af93aca.jpg",
     "static/media/shamo.jpg": "/static/media/shamo.a93e83416fb3e8b962ea.jpg",
     "static/media/game.png": "/static/media/game.20a94ee5833950caca4b.png",
     "static/media/components.png": "/static/media/components.bf8d75777138ea4722b6.png",
     "index.html": "/index.html",
-    "main.10b57bfa.css.map": "/static/css/main.10b57bfa.css.map",
-    "main.f3ea8e7f.js.map": "/static/js/main.f3ea8e7f.js.map",
+    "main.b957f819.css.map": "/static/css/main.b957f819.css.map",
+    "main.970bdd5d.js.map": "/static/js/main.970bdd5d.js.map",
     "787.c1049e12.chunk.js.map": "/static/js/787.c1049e12.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.10b57bfa.css",
-    "static/js/main.f3ea8e7f.js"
+    "static/css/main.b957f819.css",
+    "static/js/main.970bdd5d.js"
   ]
 }
