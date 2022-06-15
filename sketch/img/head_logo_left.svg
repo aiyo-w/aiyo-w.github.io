@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 25 24" width="25" color="#000">
+    <g fill="none" fill-rule="evenodd" transform="translate(4.380208 2.5)">
+        <g>
+            <path d="m8.25 0 8.25 4.70912415v9.57548965l-8.25 4.7153862-8.25-4.7153862v-9.57548965z"
+                stroke="currentColor" stroke-linejoin="round" stroke-width="1.5" />
+            <g fill="currentColor" fill-opacity=".15">
+                <path d="m8.25235457 4.6 4.25235453 2.45v4.9l-4.25235453 2.45-4.25235457-2.45v-4.9z"
+                    stroke="currentColor" stroke-linejoin="round" stroke-width="1.5" />
+                <path
+                    d="m4.02631579 12.1511628-3.57894737 2.2093023 8.05263158 4.4186047 8.0526316-4.4186047v-9.49999998l-3.5789474 1.98837209v5.30232559l-4.4736842 2.6511628z" />
+            </g>
+        </g>
+        <g stroke="currentColor" stroke-width="1.5">
+            <path d="m8.25 0 .002355 4.6" />
+            <path d="m8.25 14.4v4.6" />
+            <path d="m0 4.709124 4 2.340876" />
+            <path d="m12.504709 11.95 3.995291 2.334614" />
+            <path d="m12.504709 4.709124 3.995291 2.340876" transform="matrix(-1 0 0 1 29.00471 0)" />
+            <path d="m0 11.95 4 2.334614" transform="matrix(-1 0 0 1 4 0)" />
+        </g>
+    </g>
+</svg>

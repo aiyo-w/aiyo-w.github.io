@@ -1,0 +1,84 @@
+.footer {
+    width: 100%;
+    padding: 24px 0;
+    text-align: center;
+}
+
+.footer-logo svg {
+    margin: 30px 0 0 0;
+    cursor: pointer;
+    transition: filter 500ms ease-in;
+    filter: brightness(100%) contrast(100%);
+}
+
+.footer-logo svg:hover {
+    filter: brightness(210%) contrast(90%);
+}
+
+.footer-app {
+    color: rgba(255, 255, 255, 0.7);
+    margin: 40px 0;
+}
+
+.footer-app img {
+    width: 14px;
+    height: 14px;
+}
+
+.footer-app a {
+    text-decoration: none;
+    color: #009dff;
+}
+
+.footer-info1 {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 12px;
+}
+
+.footer-info1>span,
+.footer-info1>div {
+    display: block;
+    line-height: 1.4;
+}
+
+.footer-info1 a {
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+.footer-info1 a:hover{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.footer-info1 div a:not(:last-of-type)::after {
+    content: '';
+    width: 1px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 15px;
+    display: inline-block;
+}
+.footer-info2{
+    color: rgba(255, 255, 255, 0.7);
+    padding: 30px 0;
+}
+
+.footer-info2 div{
+    line-height: 1.4;
+    font-size: 10px;
+}
+.footer-info2 a{
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+.footer-info2 a:hover{
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.line::after{
+    content: '';
+    width: 1px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    margin: 0 15px;
+    display: inline-block;
+}

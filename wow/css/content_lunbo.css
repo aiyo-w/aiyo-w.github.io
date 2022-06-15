@@ -1,0 +1,316 @@
+.content-lunbo {
+    position: relative;
+    background-color: black;
+    border: solid 1px rgba(255, 255, 255, 0.2);
+    border-left: 0;
+    border-right: 0;
+}
+
+.lunbo-imgbox {
+    width: 100%;
+    height: 514px;
+    position: relative;
+}
+
+.lunbo-img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-position-x: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.lunboimg1 {
+    background-image: url(../img/OW_2022_ReaperCodeOfViolenceChallenge_BlizzardHomepage-Desktop_2500x514_JP.webp);
+}
+
+.lunboimg2 {
+    background-image: url(../img/WoW_9.2Launch_BlizzardCom_Banners-Desktop_2500x514_JM01.jpeg);
+    background-size: 110%;
+    background-repeat: no-repeat;
+}
+
+.lunboimg3 {
+    background-image: url(../img/2022_BlizzardHomepage-Desktop_2500x514_JP.webp);
+}
+
+.lunboimg4 {
+    background-image: url(../img/22.2_Battlegrounds_Buddies_Blizzcom_Header_2500x514_RN02.webp);
+}
+
+.lunboimg5 {
+    background-image: url(../img/wow-lny-wenlo-2021-banner-desktop-180d-RD02-2500x514.webp);
+}
+
+.lunbo-content {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.lunbo-content img {
+    width: 260px;
+}
+
+.lunbo-content span {
+    color: white;
+    font-size: 4.25rem;
+    font-weight: 700;
+}
+
+.lunbo-content a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 50px;
+    background-color: #006fb2;
+    border: solid 1px #00aeff;
+    margin-top: 20px;
+}
+
+.lunbo-btnbox {
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    left: 0;
+}
+
+.lunbo-btnbox button {
+    background: black;
+    padding: 20px 5px;
+    border: 1px solid #263945;
+    background-color: rgba(0, 0, 0, .5);
+    cursor: pointer;
+    color: #00aeff;
+}
+
+.lunbo-btnbox button:first-child {
+    margin-left: 15%;
+}
+
+.lunbo-btnbox button:last-child {
+    float: right;
+    margin-right: 15%;
+}
+
+.lunbo-btnbox button:hover {
+    border: 1px solid #00aeff;
+    color: #fff;
+}
+
+.lunbo-btnbox button svg {
+    width: 32px;
+    height: 32px;
+    fill: currentColor;
+}
+
+.lunbo-progressbox {
+    display: flex;
+    flex-direction: row;
+    height: 24px;
+    justify-content: center;
+    align-items: center;
+}
+
+.progressbar {
+    width: 100px;
+    height: 4px;
+    background: rgba(255, 255, 255, .5);
+    margin: 0 4px;
+    transform: scale(1);
+}
+
+.progressbar:hover {
+    background-color: rgba(255, 255, 255, .8);
+}
+
+.progressbar-current {
+    background: #00aeff;
+    width: 0;
+    height: 100%;
+}
+
+.content-gamelist {
+    width: 100%;
+    background-image: url(../img/background-generic-landscape-short.31b43a7823e13c6383e5e613b04b5b58.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+}
+
+.gamelist {
+    width: 55%;
+    margin: 0 auto;
+}
+
+.gamelist a {
+    margin: 0;
+    color: #00aeff;
+    text-decoration: none;
+}
+
+.gamelist h2 {
+    color: white;
+    font-size: 2.75rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.gametitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 24px 19px 0 19px;
+}
+
+.gamebox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gamecard {
+    width: 240px;
+    height: 320px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 17px;
+    border: solid 1px rgba(255, 255, 255, .15);
+}
+
+.gamecard:hover {
+    border: solid 1px #00aeffb4;
+    transform: scale(1.02);
+    filter: brightness(120%);
+    cursor: pointer;
+}
+
+.content-download {
+    background-image: url(../img/DesktopBG_Image.webp);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+
+    border-top: 1px solid #1e4f81;
+    border-bottom: 1px solid #1e4f81;
+    color: #fff;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    padding: 56px 0;
+}
+
+.applogo {
+    position: absolute;
+    height: 1.5em;
+    width: 1.5em;
+    fill: #148eff;
+    opacity: 0.3;
+    font-size: 13rem;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: 35%;
+}
+
+.downbox {
+    margin-left: 20%;
+    max-width: 380px;
+}
+
+.appimg {
+    margin-right: 20%;
+    position: absolute;
+    right: 0;
+    z-index: 1;
+}
+
+.downbox svg {
+    height: 1.5em;
+    width: 1.5em;
+    fill: #00aeff;
+    color: #00aeff;
+}
+
+.downbox h2 {
+    color: white;
+    font-size: 2.75rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.downbox div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.downbox div span {
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, .5);
+    margin-left: 10px;
+}
+
+.downbox div:last-child {
+    margin-top: 32px;
+    flex-wrap: wrap;
+}
+
+.downbox div:last-child div {
+    margin-top: 16px;
+    margin-bottom: 0px;
+}
+
+.downloadbtn {
+    color: white;
+    background-color: #006fb2;
+    border: solid 1px #00aeff;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+}
+
+.downloadbtn svg {
+    color: white;
+    fill: white;
+}
+
+.aboutbtn {
+    background-color: transparent;
+    color: #00aeff;
+    padding: 11.5px 16px;
+    text-decoration: none;
+    border: solid 1px #00aeff;
+
+    margin-left: 10px;
+}
+
+.aboutbtn:hover {
+    background-color: #006fb2;
+    color: #fff;
+}
+
+
+.appimg img {
+    height: 332px;
+}
+
+.mobielapp {
+    color: #00aeff;
+}
