@@ -234,6 +234,24 @@
     background-color: #f7b831;
 }
 
+.content .introduce .link-github {
+    border: 3px solid transparent;
+    margin-right: 20px;
+    margin-left: 20px;
+    background: url(./images/github.png) center center no-repeat;
+}
+
+.content .introduce .link-github:hover {
+    background: url(./images/github-white.png) center center no-repeat;
+    border: 3px solid #ffc445;
+    background-color: #ffc445;
+}
+
+.content .introduce .link-github:active {
+    border: 3px solid #f7b831;
+    background-color: #f7b831;
+}
+
 /* .content.introduction-container .aiyo-introduction {
     display: flex;
     flex-direction: column;

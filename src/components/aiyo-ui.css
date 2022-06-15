@@ -1,67 +1,27 @@
 .content.aiyo-ui-container {
     background: rgba(255, 255, 255, 0.6);
+    position: relative;
+    z-index: 1;
 }
 
 .content.aiyo-ui-container .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100vh;
     grid-gap: 100px;
-    min-height: 600px;
-    position: relative;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%);
+    /*子元素垂直居中*/
+    align-items: center;
 }
 
 .content.aiyo-ui-container .container .aiyo-ui-show {
+    min-height: 600px;
     background-color: rgba(255, 255, 255, 0.8);
     background-image: url(./images/components.png);
     background-position: right;
     background-repeat: no-repeat;
 }
 
-/* .content.aiyo-ui-container .container .aiyo-ui-introduce {
+.aiyo-ui-container .aiyo-ui-introduce span:last-child {
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: start;
 }
-
-.content.aiyo-ui-container .container .aiyo-ui-introduce .title,
-.content.works-container .title {
-    display: block;
-    font-size: 72px;
-    font-weight: bold;
-    color: #424242;
-    margin: 0;
-}
-
-.content.aiyo-ui-container .container .aiyo-ui-introduce span,
-.content.works-container span {
-    margin-top: 40px;
-    color: #616161;
-    font-size: 16px;
-    font-weight: 600;
-}
-
-.content.aiyo-ui-container .container .aiyo-ui-introduce a,
-.content.works-container a {
-    display: inline-block;
-    text-decoration: none;
-    color: #424242;
-    padding: 10px 20px;
-    border: 3px solid #616161;
-    transition: all 0.2s;
-}
-
-.content.aiyo-ui-container .container .aiyo-ui-introduce a:hover,
-.content.works-container a:hover {
-    border: 3px solid #ffc445;
-    background-color: #ffc445;
-    color: white;
-}
-
-.content.aiyo-ui-container .container .aiyo-ui-introduce a:active,
-.content.works-container a:active {
-    border: 3px solid #f7b831;
-    background-color: #f7b831;
-} */

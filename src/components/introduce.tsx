@@ -23,8 +23,8 @@ export class Introduce extends React.Component {
                         <span></span>
                     </div>
                     <div className="introduce aiyo-introduction">
-                        <span className='title'>你好啊！兄弟们</span>
-                        <span>这里就放一些自己的介绍啥的吧，我也不知道说啥!</span>
+                        <span className='title'>欢迎来到我的主页！</span>
+                        <span>该网站用于展示我前端学习中做的一些小项目</span>
                         <span>
                             <a href="#Game2048">查看作品</a>
                         </span>
