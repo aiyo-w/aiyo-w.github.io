@@ -26,7 +26,7 @@ export class Works extends React.Component {
                     </div>
                     <div className="game2048-show"></div>
                 </div>
-                <NextPage />
+                <NextPage targatId="AiyoUI" />
             </div>
         );
     }

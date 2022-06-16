@@ -1,9 +1,10 @@
 .next-page {
-    height: 200px;
+    display: block;
+    height: 10vh;
     width: 4px;
     background-color: transparent;
     position: relative;
-    top: -100px;
+    top: -5vh;
     left: 50%;
     transform: translate(-50%);
     z-index: 99;
@@ -37,14 +38,14 @@
 
     to {
         top: 0;
-        height: calc(100% - 15px);
+        height: calc(100% - 1.5vh);
     }
 }
 
 @keyframes NextPageAnimateDown {
     from {
         bottom: 0;
-        height: calc(100% - 15px);
+        height: calc(100% - 1.5vh);
     }
 
     to {

@@ -1,9 +1,9 @@
 .content.static-web-container {
     background-color: white;
-    min-height: 1100px;
 }
 
-.content.static-web-container .container {
+.content.static-web-container .static-web-box {
+    max-height: 80vh;
     position: relative;
     top: 50%;
     transform: translateY(-50%);
@@ -12,16 +12,15 @@
 .content.static-web-container .static-web-show {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 40vh;
 }
 
 .content.static-web-container .static-web-show.sketch .img {
-    min-height: 500px;
     background: url(./images/sketch.png) center center no-repeat;
     background-size: cover;
 }
 
 .content.static-web-container .static-web-show.wow .img {
-    min-height: 500px;
     background: url(./images/wow.png) center center no-repeat;
     background-size: cover;
 }
@@ -33,15 +32,15 @@
 }
 
 .static-web-show .text span {
-    margin-top: 40px;
+    margin-top: 2rem;
     color: #616161;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
 }
 
 .static-web-show .text .title {
     display: block;
-    font-size: 72px;
+    font-size: 4rem;
     font-weight: bold;
     color: #424242;
     margin: 0;
@@ -78,4 +77,24 @@
     border: 3px solid #ffc445;
     color: white;
     background: transparent;
+}
+
+@media screen and (max-width:820px) {
+    .content.static-web-container {}
+
+    .content.static-web-container .static-web-box {
+        max-height: 100vh;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 50vh 50vh;
+    }
+
+    .content.static-web-container .static-web-show {
+        grid-template-columns: 1fr;
+        grid-template-rows: 20vh 30vh;
+    }
+
+    .static-web-show .text {
+        grid-row: 1;
+    }
 }

@@ -2,6 +2,10 @@ import React from "react";
 
 import './next-page.css';
 
-export const NextPage = () => {
-    return <div className='next-page'></div>;
+interface Props {
+    targatId: string;
+}
+
+export const NextPage = (props: Props) => {
+    return <a href={`#${props.targatId}`} className='next-page'> </a>;
 }

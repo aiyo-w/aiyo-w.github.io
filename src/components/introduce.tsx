@@ -1,7 +1,6 @@
 import React from 'react';
 import './introduce.css';
 
-import { Button } from './button'
 import { NextPage } from './next-page';
 
 export class Introduce extends React.Component {
@@ -17,7 +16,7 @@ export class Introduce extends React.Component {
                     <div className='cloud-2'></div>
                     <div className='sun'></div>
                 </div>
-                <div className="introduction-layout">
+                <div className="container introduction-layout">
                     <div className="aiyo-avatar">
                         <p>hello</p>
                         <span></span>
@@ -31,7 +30,7 @@ export class Introduce extends React.Component {
                         {/* <Button onClick={this.gotoWorks}>查看作品</Button> */}
                     </div>
                 </div>
-                <NextPage />
+                <NextPage targatId='Game2048' />
             </div>);
     }
 }

@@ -4,17 +4,8 @@
     z-index: 1;
 }
 
-.works-container .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100vh;
-    grid-gap: 100px;
-    /*子元素垂直居中*/
-    align-items: center;
-}
-
 .works-container .game2048-show {
-    min-height: 600px;
+    min-height: 60vh;
     background-color: #a1887f41;
     background-image: url(./images/game.png);
     background-position-x: 20px;
@@ -31,4 +22,22 @@
 .works-container .game2048-introduce span:last-child {
     display: flex;
     justify-content: end;
+}
+
+@media screen and (max-width:1200px) {
+    .works-container .game2048-show {
+        min-height: 40vh;
+        align-self: start;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .works-container .game2048-introduce {
+        text-align: center;
+    }
+
+    .works-container .game2048-introduce span:last-child {
+        justify-content: center;
+        flex-direction: row-reverse;
+    }
 }

@@ -5,7 +5,7 @@ import { NextPage } from './next-page';
 export class AiyoUI extends React.Component {
     render() {
         return (
-            <div className="content aiyo-ui-container">
+            <div id="AiyoUI" className="content aiyo-ui-container">
                 <div className="container">
                     <div className="aiyo-ui-show"></div>
                     <div className="introduce aiyo-ui-introduce">
@@ -18,7 +18,7 @@ export class AiyoUI extends React.Component {
                         </span>
                     </div>
                 </div>
-                <NextPage />
+                <NextPage targatId="StaticWeb" />
             </div>
         );
     }

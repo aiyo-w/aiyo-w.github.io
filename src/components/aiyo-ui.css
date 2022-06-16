@@ -1,20 +1,10 @@
 .content.aiyo-ui-container {
     background: rgba(255, 255, 255, 0.6);
     position: relative;
-    z-index: 1;
-}
-
-.content.aiyo-ui-container .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 100vh;
-    grid-gap: 100px;
-    /*子元素垂直居中*/
-    align-items: center;
 }
 
 .content.aiyo-ui-container .container .aiyo-ui-show {
-    min-height: 600px;
+    min-height: 60vh;
     background-color: rgba(255, 255, 255, 0.8);
     background-image: url(./images/components.png);
     background-position: right;
@@ -24,4 +14,22 @@
 .aiyo-ui-container .aiyo-ui-introduce span:last-child {
     display: flex;
     justify-content: start;
+}
+
+@media screen and (max-width:1200px) {
+    .content.aiyo-ui-container .container .aiyo-ui-show {
+        min-height: 40vh;
+        align-self: start;
+        background-size: contain;
+        background-position: center;
+    }
+
+    .aiyo-ui-introduce {
+        grid-row: 1;
+        text-align: center;
+    }
+
+    .aiyo-ui-container .aiyo-ui-introduce span:last-child {
+        justify-content: center;
+    }
 }

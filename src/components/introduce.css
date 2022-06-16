@@ -1,10 +1,4 @@
-.introduction-container {
-    /* background: url("./images/shamo.jpg") center center no-repeat;
-    background-size: cover;
-    background-attachment: fixed; */
-}
-
-.introduction-layout {
+.container {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 100vh;
@@ -90,8 +84,8 @@
 .aiyo-avatar {
     /*在父容器中水平居右*/
     justify-self: right;
-    height: 400px;
-    width: 400px;
+    height: 20vw;
+    width: 20vw;
     border-radius: 50%;
     background: url("./images/ocean.jpg") center center no-repeat;
     background-size: cover;
@@ -129,7 +123,7 @@
 
 .aiyo-avatar:hover p {
     text-align: center;
-    font-size: 24px;
+    font-size: 1.75rem;
     color: aliceblue;
     font-weight: 700;
     padding: 100px 0;
@@ -181,18 +175,6 @@
     }
 }
 
-.aiyo-introduction h1 {
-    font-size: 72px;
-    margin: 0 0 30px 0;
-    color: #424242;
-}
-
-.aiyo-introduction p {
-    color: #616161;
-    font-size: 16px;
-    font-weight: 600;
-}
-
 .content .introduce {
     display: flex;
     flex-direction: column;
@@ -201,16 +183,16 @@
 
 .content .introduce .title {
     display: block;
-    font-size: 72px;
+    font-size: 4rem;
     font-weight: bold;
     color: #424242;
     margin: 0;
 }
 
 .content .introduce span {
-    margin-top: 40px;
+    margin-top: 2rem;
     color: #616161;
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 600;
 }
 
@@ -252,45 +234,30 @@
     background-color: #f7b831;
 }
 
-/* .content.introduction-container .aiyo-introduction {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
-.content.introduction-container .aiyo-introduction .title,
-.content.works-container .title {
-    display: block;
-    font-size: 72px;
-    font-weight: bold;
-    color: #424242;
-    margin: 0;
-}
+@media screen and (max-width:1200px) {
+    html {
+        font-size: 10px;
+    }
 
-.content.introduction-container .aiyo-introduction span,
-.content.works-container span {
-    margin-top: 40px;
-    color: #616161;
-    font-size: 16px;
-    font-weight: 600;
-}
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 50vh 50vh;
+        grid-gap: 0;
+    }
 
-.content.introduction-container .aiyo-introduction a {
-    display: inline-block;
-    text-decoration: none;
-    color: #424242;
-    padding: 10px 20px;
-    border: 3px solid #616161;
-    transition: all 0.2s;
-}
+    .introduction-sky {
+        display: none;
+    }
 
-.content.introduction-container .aiyo-introduction a:hover {
-    border: 3px solid #ffc445;
-    background-color: #ffc445;
-    color: white;
-}
+    .aiyo-avatar {
+        justify-self: center;
+        height: 25vh;
+        width: 25vh;
+    }
 
-.content.introduction-container .aiyo-introduction a:active {
-    border: 3px solid #f7b831;
-    background-color: #f7b831;
-} */
+    .aiyo-introduction {
+        text-align: center;
+        align-self: start;
+    }
+}
