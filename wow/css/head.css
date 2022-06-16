@@ -1,0 +1,177 @@
+/* 导航条样式 */
+.navbar {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+.navbar .blizzard-logo {
+    position: relative;
+    width: 75px;
+}
+
+.navbar .blizzard-logo svg {
+    position: absolute;
+    top: -20px;
+    width: 100%;
+}
+
+.blizzard-nav,
+.blizzard-login {
+    display: inline-block;
+}
+
+.blizzard-nav svg,
+.blizzard-login svg {
+    stroke: currentColor;
+}
+
+.blizzard-nav a,
+.blizzard-login a {
+    padding: 20px 0;
+}
+
+.blizzard-login {
+    float: right;
+}
+
+.game-modals,
+.eSports-modals {
+    display: none;
+    background: radial-gradient(ellipse farthest-side at center top, #283244 0%, rgba(21, 26, 35, 0.95) 100%);
+    border: solid 1px rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 17px 0 rgb(0 0 0 / 20%);
+    border-left: 0;
+    border-right: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.games-imgs {
+    width: 60%;
+    margin: 40px auto;
+}
+
+.game-modals .games-imgs a {
+    position: relative;
+    top: -40px;
+    height: 180px;
+    width: calc(11.11111% - 20px);
+    margin-right: 15px;
+    overflow: hidden;
+    filter: brightness(100%);
+}
+
+.game-modals .games-imgs a::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border: solid 1px rgba(255, 255, 255, 0.15);
+
+}
+
+.game-modals .games-imgs a img {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 180px;
+    width: 216px;
+}
+
+.games-more,
+.more-eSports {
+    text-align: center;
+    border-top: solid 1px rgba(255, 255, 255, 0.15);
+}
+
+.navbar-modals {
+    position: relative;
+    z-index: 999;
+}
+
+.navbar-modals a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+    display: inline-block;
+}
+
+.navbar-modals a:hover {
+    color: white;
+}
+
+.navbar-modals .games-more a,
+.navbar-modals .more-eSports a {
+    padding: 15px 30px;
+}
+
+.eSports-box img {
+    width: 14vw;
+    height: 14vw;
+    max-width: 192px;
+    max-height: 192px;
+    filter: brightness(100%);
+}
+
+.eSports-box {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.eSports-box a {
+    text-align: center;
+    position: relative;
+    top: -60px;
+}
+
+.account-modals {
+    display: none;
+    background: radial-gradient(ellipse farthest-side at center top, #283244 0%, rgba(21, 26, 35, 0.95) 100%);
+    border: solid 1px rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 17px 0 rgb(0 0 0 / 20%);
+    position: absolute;
+    right: 20%;
+    max-width: 20em;
+    width: 100%;
+}
+
+.login-button {
+    padding: 20px;
+}
+
+.login-button a {
+    padding: 10px 0;
+    width: 100%;
+    background-color: #006fb2;
+    border: solid 1px #00aeff;
+    text-align: center;
+}
+
+.account-modals>a>img {
+    width: 1.5em;
+    height: 1.5em;
+    margin-right: 5px;
+    vertical-align: middle;
+}
+
+.account-modals>a>div {
+    display: inline-block;
+}
+
+.account-modals>a {
+    padding: 10px 20px;
+    display: block;
+    border-top: solid 1px rgba(255, 255, 255, 0.15);
+}
